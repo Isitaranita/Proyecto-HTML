@@ -1,1 +1,25 @@
 /*Estanque feliz*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crafty+Girls&display=swap");
+
+:root {
+    --blanco: #ffffff;
+    --rosita: #FDD3CC;
+    --amarillo: #F5E082;
+    --aquamarina: #BAFFDF;
+    --esmeralda: #6EC188;
+    --viridian: #2A7F62;
+    --negro: #252525;
+}
+
+body {
+    font-size: 62,5%;
+    background-color: var(--aquamarina);
+}
+
+header{
+    font-size: 5rem;
+    text-align: center;
+    font-family: crafty girls, cursive;
+    color: var(--viridian);
+    margin-top: 4rem;
+}
