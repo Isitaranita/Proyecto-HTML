@@ -14,12 +14,42 @@
 body {
     font-size: 62,5%;
     background-color: var(--aquamarina);
+    box-sizing: border-box;
+}
+
+main {
+    background-color: var(--esmeralda);
+    width: 100rem;
+    height: max-content;
+    margin: auto;
+    padding-bottom: 40rem;
+    padding-top: .1%;
 }
 
 header{
     font-size: 5rem;
     text-align: center;
     font-family: crafty girls, cursive;
-    color: var(--viridian);
+    color: var(--bl);
+    background-color: #F5E082;
+    width: 80rem;
+    padding: 1%;
+    margin: auto;
     margin-top: 4rem;
+    border-radius: 2rem;
+}
+
+nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 2rem;
 }
