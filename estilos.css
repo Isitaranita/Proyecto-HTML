@@ -1,1 +1,43 @@
 /* Estilos bonitos con Isita y Saray ♥ */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crafty+Girls&display=swap");
+
+:root{
+    --rosado: #fdd3cc;
+    --amarillo: #F5E082;
+    --verdeagua: #BAFFDF;
+    --esmeralda: #6EC188;
+    --viridian: #2A7F62;
+    --negro: #252525;
+}
+
+body{
+    font-size: 62,5%;
+    background-color: var(--verdeagua);
+}
+
+main{
+    background-color: var(--esmeralda);
+    width: 95rem;
+    margin: auto;
+    padding-bottom: 50rem;
+    border-radius: 2rem;
+}
+
+header h1{
+    font-family: crafty girls;
+    font-size: 4rem;
+    text-align: center;
+    color: var(--negro);
+    background-color: var(--amarillo);
+    border-radius: 2rem;
+    width: 80rem;
+    margin: auto;
+    margin-top:5rem ;
+    padding: 2rem;
+}
+
+
+
+
+
+
