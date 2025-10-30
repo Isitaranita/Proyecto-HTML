@@ -11,6 +11,10 @@
     --negro: #252525;
 }
 
+* {
+    transition: all .2s;
+}
+
 body {
     font-size: 62,5%;
     background-color: var(--aquamarina);
@@ -39,17 +43,45 @@ header{
     border-radius: 2rem;
 }
 
-nav a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: var(--blanco);
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 1rem auto;
+    gap: 1rem;
 }
 
-.material-symbols-outlined {
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--negro);
+    font-family: Comfortaa;
+    background-color: var(--amarillo);
+    border-radius: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1%;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: var(--rosita);
+}
+
+nav a, span, .material-symbols-outlined, .bi.bi-water {
+    align-content: center;
+    align-items: center;
+}
+
+.bi.bi-water{
+    font-size: 1.5rem;
+}
+nav a .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
   'wght' 300,
   'GRAD' 0,
   'opsz' 24;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
