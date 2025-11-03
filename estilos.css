@@ -13,27 +13,39 @@
 body{
     font-size: 62,5%;
     background-color: var(--verdeagua);
+    box-sizing: border-box;
 }
 
-main{
+main {
     background-color: var(--esmeralda);
-    width: 95rem;
+    width: 100rem;
+    height: max-content;
+    margin: 0.8rem auto;
+    padding-bottom: 40rem;
+    padding-top: .1%;
+    border-radius: 2rem;
+}
+
+header{
+    text-align: center;
+    font-family: crafty girls, cursive;
+    color: var(--bl);
+    background-color: #F5E082;
+    width: 80rem;
+    padding: 1%;
     margin: auto;
-    padding-bottom: 50rem;
+    margin-top: 4rem;
     border-radius: 2rem;
 }
 
 header h1{
-    font-family: crafty girls;
-    font-size: 4rem;
+    font-size: 5rem;
+}
+
+#sub{
     text-align: center;
-    color: var(--negro);
-    background-color: var(--amarillo);
-    border-radius: 2rem;
-    width: 80rem;
-    margin: auto;
-    margin-top:5rem ;
-    padding: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
 }
 
 
