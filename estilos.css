@@ -6,7 +6,7 @@
     --amarillo: #F5E082;
     --verdeagua: #BAFFDF;
     --esmeralda: #6EC188;
-    --viridian: #2A7F62;
+    --viridian: #105e45;
     --negro: #252525;
 }
 
@@ -44,12 +44,44 @@ header h1{
 
 #sub{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
+    margin-left: 4rem;
 }
 
+#parrafoSub{
+    text-align: center;
+    font-size: 1.2rem;
+}
 
+#ranita{
+    border-radius: 5rem;
+    width: 18rem;
+    margin-left: 43rem;
+ 
+    
+}
 
+nav h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 4rem;
+    color: var(--viridian);
+}
+
+nav a{
+background-color: var(--rosado);
+border-radius: 2rem;
+font-size: 3rem;
+margin-left: 45rem;
+font-family: crafty girls, cursive;
+text-decoration: none;
+color: var(--negro);
+}
+
+a:hover{
+    color: var(--verdeagua);
+}
 
 
 
