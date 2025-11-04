@@ -27,7 +27,6 @@ main {
     height: max-content;
     margin: auto;
     padding: 1%;
-    padding-bottom: 40rem;
     padding-top: .1%;
     border-radius: 2rem;
 }
@@ -105,5 +104,16 @@ nav a:hover .material-symbols-outlined{
 }
 
 @media (max-width: 320px) {
-    
+    main {
+        width: 50rem;
+        margin: 5%;
+    }
+    header {
+        width: 46rem;
+        font-size: 7rem;
+    }
+    nav a {
+        width: 100%;
+        font-size: 2rem;
+    }
 }
