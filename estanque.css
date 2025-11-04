@@ -91,3 +91,19 @@ nav a:hover .material-symbols-outlined{
     font-variation-settings:
     'FILL' 1;
 }
+
+#ranitas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 5%;
+}
+
+#ranitas img {
+    border-radius: 10rem;
+}
+
+@media (max-width: 320px) {
+    
+}
