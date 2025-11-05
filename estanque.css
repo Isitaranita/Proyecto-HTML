@@ -7,7 +7,7 @@
     --amarillo: #F5E082;
     --aquamarina: #BAFFDF;
     --esmeralda: #6EC188;
-    --viridian: #2A7F62;
+    --viridian: #145e45;
     --negro: #252525;
 }
 
@@ -96,7 +96,7 @@ nav a:hover .material-symbols-outlined{
 }
 
 #desc h2 {
-    font-family: confortaa, sans-serif;
+    font-family: comfortaa, sans-serif;
     color: var(--viridian);
     font-size: 2.5rem;
     margin: 0;
@@ -111,22 +111,121 @@ nav a:hover .material-symbols-outlined{
     gap: 1rem;
     padding: 5%;
 }
-
-#ranitas img {
-    border-radius: 10rem;
+@keyframes croac {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    75% {transform: scale(0.95);}
+    100% {transform: scale(1);}
 }
 
-@media (max-width: 320px) {
+#ranitas > img {
+    border-radius: 10rem;
+    animation-name: croac;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.49,.15,.02,.97);
+    height: 15rem;
+}
+
+#ranitas > img:target {
+    border: 1rem solid var(--blanco);
+}
+
+.donar {
+    text-align: center;
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donar h2, label, button, input {
+    color: var(--negro);
+    font-family: comfortaa, sans-serif;
+}
+
+.donar input {
+    border-radius: 2rem;
+    border: .1rem solid var(--negro);
+    padding: .2rem
+}
+
+.donar input:focus {
+    background-color: var(--rosita);
+}
+
+.donar button {
+    background-color: var(--rosita);
+    border-radius: 2rem;
+    border: .1rem solid var(--negro);
+    padding: .5rem
+}
+
+.donar button:hover {
+    background-color: var(--viridian);
+    color: var(--amarillo);
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer #frog {
+    display: none;
+}
+footer #frog img {
+    filter: contrast(125%) saturate(150%) brightness(120%) drop-shadow(0 0 1rem var(--amarillo));
+    width: 10rem;
+
+}
+
+@keyframes ranitawi {
+    to {transform: rotate(360deg);}
+}
+
+footer a {
+    color: var(--negro);
+    text-decoration: none;
+}
+
+footer #frog:target {
+    display: block;
+    width: 10rem;
+    animation-name: ranitawi;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@media (max-width: 350px) {
     main {
-        width: 50rem;
-        margin: 5%;
+        width: 25rem;
     }
     header {
         width: 46rem;
-        font-size: 7rem;
+        font-size: 4rem;
     }
     nav a {
         width: 100%;
         font-size: 2rem;
+    }
+    footer img {
+        width: 7rem;
+    }
+}
+@media (max-width: 512px) {
+    main {
+        width: 28rem;
+    }
+    header {
+        width: 26rem;
+        font-size: 3.6rem;
+    }
+    nav {
+        width: 90%;
+    }
+    #ranitas > img {
+        height: 7rem;
     }
 }
