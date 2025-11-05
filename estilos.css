@@ -14,6 +14,10 @@ body{
     font-size: 62,5%;
     background-color: var(--verdeagua);
     box-sizing: border-box;
+    background-image: url(media/estanque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
@@ -84,7 +88,7 @@ nav h1 {
     font-family: comfortaa;
 }
 
-nav a {
+.link {
     background-color: var(--amarillo);
     border-radius: 2rem;
     font-size: 7rem;
@@ -97,11 +101,17 @@ nav a {
     padding-right: 2rem;
 }
 
+.link:focus{
+    color: var(--esmeralda)
+}
+
 a:hover {
     background-color: var(--rosado);
 }
 
-
+#titulo:target{
+    color: beige;
+}
 
 footer #frog img {
     filter: contrast(125%) saturate(150%) brightness(120%) drop-shadow(0 0 1rem var(--amarillo));

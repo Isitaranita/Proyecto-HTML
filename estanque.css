@@ -19,7 +19,13 @@ body {
     font-size: 62,5%;
     background-color: var(--aquamarina);
     box-sizing: border-box;
+    background-image: url(media/estanque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+
 
 main {
     background-color: var(--esmeralda);
