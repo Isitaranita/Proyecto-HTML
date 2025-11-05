@@ -23,6 +23,7 @@ body {
 
 main {
     background-color: var(--esmeralda);
+    text-align: center;
     width: 100rem;
     height: max-content;
     margin: auto;
@@ -49,7 +50,7 @@ nav {
     flex-direction: row;
     width: 50%;
     margin: 1rem auto;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 nav a {
@@ -139,31 +140,40 @@ nav a:hover .material-symbols-outlined{
     align-items: center;
 }
 
-.donar h2, label, button, input {
-    color: var(--negro);
+.donar h2 a, label, button, input {
+    color: var(--viridian);
     font-family: comfortaa, sans-serif;
+    text-decoration: none;
+}
+
+.donar label, button, input {
+    font-size: 1.1rem;
 }
 
 .donar input {
     border-radius: 2rem;
-    border: .1rem solid var(--negro);
+    border: .1rem solid var(--viridian);
     padding: .2rem
 }
 
 .donar input:focus {
     background-color: var(--rosita);
+    color: var(--negro);
 }
 
 .donar button {
     background-color: var(--rosita);
+    color: var(--negro);
     border-radius: 2rem;
-    border: .1rem solid var(--negro);
+    border: .15rem solid var(--negro);
     padding: .5rem
 }
 
 .donar button:hover {
     background-color: var(--viridian);
+    border-color: var(--amarillo);
     color: var(--amarillo);
+    filter: drop-shadow(0 0 0.5rem var(--amarillo));
 }
 
 footer{
@@ -171,6 +181,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: comfortaa;
+    margin: 1rem;
 }
 footer #frog {
     display: none;
@@ -178,7 +190,6 @@ footer #frog {
 footer #frog img {
     filter: contrast(125%) saturate(150%) brightness(120%) drop-shadow(0 0 1rem var(--amarillo));
     width: 10rem;
-
 }
 
 @keyframes ranitawi {
@@ -190,6 +201,17 @@ footer a {
     text-decoration: none;
 }
 
+@keyframes navidad {
+    25% {background-color: var(--amarillo); color: var(--negro); border-color: var(--negro);}
+    50% {background-color: var(--viridian); color: var(--blanco); border-color: var(--blanco);}
+    75% {background-color: var(--blanco); color: var(--viridian); border-color: var(--viridian);}
+}
+
+#botonDona:target {
+    animation-name: navidad;
+    animation-duration: .5s;
+}
+
 footer #frog:target {
     display: block;
     width: 10rem;
@@ -198,34 +220,214 @@ footer #frog:target {
     animation-iteration-count: infinite;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 1024px) {
     main {
-        width: 25rem;
+        width: 62rem;
     }
     header {
-        width: 46rem;
+        width: 60rem;
+        font-size: 5rem;
+    }
+    nav {
+        width: 100%;
         font-size: 4rem;
     }
-    nav a {
-        width: 100%;
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.5rem;
+    }
+    #ranitas > img {
+        height: 12rem;
+    }
+    .donar h2 {
         font-size: 2rem;
     }
-    footer img {
-        width: 7rem;
+    .donar label, button, input {
+        font-size: 1.4rem;
     }
 }
+
+@media (max-width: 768px) {
+    main {
+        width: 40rem;
+    }
+    header {
+        width: 35rem;
+        font-size: 4.5rem;
+    }
+    nav {
+        width: 90%;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.5rem;
+    }
+    #ranitas > img {
+        height: 8rem;
+    }
+    .donar h2 {
+        font-size: 2rem;
+    }
+    .donar label, button, input {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 670px) {
+    main {
+        width: 34rem;
+    }
+    header {
+        width: 30rem;
+        font-size: 4rem;
+    }
+    nav{
+        width: 90%;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+    #ranitas > img {
+        height: 10rem;
+    }
+    .donar h2 {
+        font-size: 2rem;
+    }
+    .donar label, button, input {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 599px) {
+    main {
+        width: 28rem;
+    }
+    header {
+        width: 25rem;
+        font-size: 3.5rem;
+    }
+    nav{
+        width: 90%;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+    #ranitas > img {
+        height: 10rem;
+    }
+    .donar h2 {
+        font-size: 2rem;
+    }
+    .donar label, button, input {
+        font-size: 1.4rem;
+    }
+}
+
 @media (max-width: 512px) {
     main {
         width: 28rem;
     }
     header {
-        width: 26rem;
-        font-size: 3.6rem;
+        width: 25rem;
+        font-size: 3.5rem;
+    }
+    nav{
+        width: 90%;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+    #ranitas > img {
+        height: 10rem;
+    }
+    .donar h2 {
+        font-size: 2rem;
+    }
+    .donar label, button, input {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 511px) {
+    main {
+        width: 24rem;
+    }
+    header {
+        width: 22rem;
+        font-size: 2.8rem;
     }
     nav {
         width: 90%;
     }
-    #ranitas > img {
-        height: 7rem;
+    #desc h2 {
+        font-size: 2rem;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+    footer img {
+        width: 7rem;
+    }
+}
+@media (max-width: 425px) {
+    main {
+        width: 23rem;
+        margin-left: .1rem;
+    }
+    header {
+        width: 22rem;
+        font-size: 2.8rem;
+    }
+    nav {
+        width: 90%;
+    }
+    #desc h2 {
+        font-size: 2rem;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+    footer img {
+        width: 7rem;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        width: 21rem;
+        margin-left: 1%;
+    }
+    header {
+        width: 19rem;
+        font-size: 2.8rem;
+    }
+    nav {
+        width: 90%;
+    }
+    #desc h2 {
+        font-size: 2rem;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+    footer img {
+        width: 7rem;
+    }
+}
+
+@media (max-width: 350px) {
+    main {
+        width: 18rem;
+    }
+    header {
+        width: 16rem;
+        font-size: 2.6rem;
+    }
+    nav {
+        width: 90%;
+    }
+    #desc h2 {
+        font-size: 2rem;
+    }
+    nav a, a span, .bi.bi-water, .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+    footer img {
+        width: 7rem;
     }
 }

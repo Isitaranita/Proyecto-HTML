@@ -69,19 +69,97 @@ nav h1 {
     color: var(--viridian);
 }
 
-nav a{
-background-color: var(--rosado);
-border-radius: 2rem;
-font-size: 3rem;
-margin-left: 45rem;
-font-family: crafty girls, cursive;
-text-decoration: none;
-color: var(--negro);
+nav a {
+    background-color: var(--rosado);
+    border-radius: 2rem;
+    font-size: 3rem;
+    margin-left: 45rem;
+    font-family: crafty girls, cursive;
+    text-decoration: none;
+    color: var(--negro);
 }
 
-a:hover{
+a:hover {
     color: var(--verdeagua);
 }
 
 
+@media (max-width: 1024px) {
+    main {
+        width: 62rem;
+    }
+    header {
+        width: 60rem;
+        font-size: 5rem;
+    }
+    nav {
+        width: 100%;
+        font-size: 1rem;
+    }
+    nav h1 {
+        font-size: 4rem;
+    }
+    nav a {
+        margin-left: 23rem;
+    }
+}
 
+@media (max-width: 768px) {
+    main {
+        width: 45rem;
+        margin-left: 4rem;
+    }
+    header {
+        width: 36rem;
+    }
+    header h1 {
+        font-size: 4rem;
+    }
+    nav {
+        width: 100%;
+    }
+    nav a {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 512px) {
+    main {
+        width: 32rem;
+        margin-left: 2rem;
+    }
+    header {
+        width: 30rem;
+    }
+    header h1 {
+        font-size: 4rem;
+    }
+    nav a {
+        font-size: 3rem;
+        margin-left: 9rem;
+    }
+    #ranita {
+        margin-left: 7rem;
+    }
+}
+
+
+@media (max-width: 320px) {
+    main {
+        width: 20rem;
+        margin-left: .5rem;
+    }
+    header {
+        width: 19rem;
+    }
+    header h1{
+        font-size: 3.6rem;
+    }
+    nav a {
+        font-size: 3rem;
+        margin-left: 3.5rem;
+    }
+    #ranita {
+        margin-left: 3rem;
+    }
+}
