@@ -88,6 +88,7 @@ nav a {
     background-color: var(--amarillo);
     border-radius: 2rem;
     font-size: 7rem;
+    margin: auto;
     margin-left: 28rem;
     font-family: crafty girls, cursive;
     text-decoration: none;
@@ -184,7 +185,7 @@ footer{
 @media (max-width: 320px) {
     main {
         width: 18rem;
-        margin-left: 1rem;
+        margin-left: 3%;
     }
     header {
         width: 17rem;
@@ -203,8 +204,8 @@ footer{
     nav h1 {
         font-size: 2rem;
     }
-    nav a{
+    nav a, span, .bi.bi-water{
         font-size: 2rem;
-        margin-left: 22%;
+        margin: 1%;
     }
 }
