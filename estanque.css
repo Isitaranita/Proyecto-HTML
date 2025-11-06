@@ -26,10 +26,10 @@ main {
     text-align: center;
     width: 100rem;
     height: max-content;
-    margin: auto;
     padding: 1%;
     padding-top: .1%;
     border-radius: 2rem;
+    margin: auto;
 }
 
 header{
@@ -344,9 +344,10 @@ footer #frog:target {
         font-size: 1.4rem;
     }
 }
-@media (max-width: 511px) {
+@media (max-width: 470px) {
     main {
         width: 24rem;
+        margin-left: 2%;
     }
     header {
         width: 22rem;
@@ -368,7 +369,7 @@ footer #frog:target {
 @media (max-width: 425px) {
     main {
         width: 23rem;
-        margin-left: .1rem;
+        margin-left: 4%;
     }
     header {
         width: 22rem;
@@ -388,10 +389,10 @@ footer #frog:target {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 404px) {
     main {
         width: 21rem;
-        margin-left: 1%;
+        margin-left: 3%;
     }
     header {
         width: 19rem;
@@ -414,6 +415,7 @@ footer #frog:target {
 @media (max-width: 350px) {
     main {
         width: 18rem;
+        margin-left: 2%;
     }
     header {
         width: 16rem;

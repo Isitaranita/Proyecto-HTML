@@ -46,7 +46,6 @@ header h1{
     text-align: center;
     margin-top: 1rem;
     font-size: 1.5rem;
-    margin-left: 4rem;
 }
 
 #parrafoSub{
@@ -125,11 +124,11 @@ a:hover {
 
 @media (max-width: 512px) {
     main {
-        width: 32rem;
-        margin-left: 2rem;
+        width: 22rem;
+        margin-left: 8%;
     }
     header {
-        width: 30rem;
+        width: 20rem;
     }
     header h1 {
         font-size: 4rem;
@@ -139,27 +138,35 @@ a:hover {
         margin-left: 9rem;
     }
     #ranita {
-        margin-left: 7rem;
+        margin-left: 10%;
     }
 }
 
 
 @media (max-width: 320px) {
     main {
-        width: 20rem;
-        margin-left: .5rem;
+        width: 18rem;
+        margin-left: 1rem;
     }
     header {
-        width: 19rem;
+        width: 17rem;
     }
     header h1{
-        font-size: 3.6rem;
+        font-size: 3.3rem;
     }
     nav a {
         font-size: 3rem;
         margin-left: 3.5rem;
     }
     #ranita {
-        margin-left: 3rem;
+        margin-left: 8%;
+        width: 15rem;
+    }
+    nav h1 {
+        font-size: 2rem;
+    }
+    nav a{
+        font-size: 2rem;
+        margin-left: 22%;
     }
 }
