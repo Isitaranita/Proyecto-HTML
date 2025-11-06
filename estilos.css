@@ -164,8 +164,8 @@ footer{
 
 @media (max-width: 768px) {
     main {
-        width: 45rem;
-        margin-left: 1%;
+        width: 40rem;
+        margin-left: 5%;
     }
     header {
         width: 35rem;
@@ -181,10 +181,10 @@ footer{
         font-size: 2rem;
     }
     nav .link {
-        margin-left: 10%;
+        margin-left: 6%;
     }
     nav .link, .bi.bi-water{
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 }
 
