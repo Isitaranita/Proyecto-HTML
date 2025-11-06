@@ -54,10 +54,10 @@ nav {
 }
 
 nav a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: none;
     color: var(--negro);
-    font-family: Comfortaa;
+    font-family: Crafty girls, cursive;
     background-color: var(--amarillo);
     border-radius: 2rem;
     margin: 0 auto;

@@ -13,6 +13,7 @@
     <body>
         <audio src="audio/Croac1.mp3" type ="audio/mpeg" id="croS1" style="visibility: hidden;"></audio>
         <audio src="audio/Croac2.mp3" type ="audio/mpeg" id="croS2" style="visibility: hidden;"></audio>
+        <audio src="audio/Croac3.mp3" type ="audio/mpeg" id="croS3" style="visibility: hidden;"></audio>
         <main>
             <header>¡Bienvenido al estanque feliz!</header>
             <nav>
@@ -59,7 +60,8 @@
         <script>
             const croac1 = document.getElementById("croS1");
             const croac2 = document.getElementById("croS2");
-            const ranitaCro = [croac1, croac2];
+            const croac3 = document.getElementById("croS3");
+            const ranitaCro = [croac1, croac2, croac3];
             function croac() {
                 let croacCho = Math.floor(Math.random() * ranitaCro.length);
                 const ranitaCroac = ranitaCro[croacCho];
