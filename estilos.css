@@ -150,11 +150,11 @@ footer{
     nav h1 {
         font-size: 2rem;
     }
-    nav a {
+    nav .link {
         font-size: 3rem;
         margin-left: 26%;
     }
-    nav a, span, .bi.bi-water{
+    nav .link, span, .bi.bi-water{
         font-size: 4rem;
     }
     #ranita {
@@ -168,30 +168,30 @@ footer{
         margin-left: 1%;
     }
     header {
-        width: 40rem;
+        width: 35rem;
     }
     header h1, .material-symbols-outlined {
-        font-size: 5rem;
-    }
-    nav h1 {
-        font-size: 2rem;
-    }
-    nav a {
-        margin-left: 20%;
-    }
-    nav a, span, .bi.bi-water{
         font-size: 4rem;
     }
     #ranita {
         width: 25rem;
-        margin-left: 28%;
+        margin-left: 18%;
+    }
+    nav h1 {
+        font-size: 2rem;
+    }
+    nav .link {
+        margin-left: 10%;
+    }
+    nav .link, .bi.bi-water{
+        font-size: 5rem;
     }
 }
 
 @media (max-width: 512px) {
     main {
-        width: 21rem;
-        margin-left: 3%;
+        width: 22rem;
+        margin-left: 1%;
     }
     header {
         width: 20rem;
@@ -199,18 +199,47 @@ footer{
     header h1, .material-symbols-outlined {
         font-size: 2.5rem;
     }
-    nav a {
-        font-size: 3rem;
-        margin-left: 1.5%;
+    nav .link {
+        margin-left: 5%;
     }
-    nav a, span, .bi.bi-water{
+    nav .link, span, .bi.bi-water{
         font-size: 2.4rem;
     }
     #ranita {
-        margin-left: 7%;
+        margin-left: 5%;
+        width: 20rem;
     }
 }
 
+@media (max-width: 425px) {
+    main {
+        width: 25rem;
+        margin-left: 1%;
+    }
+    header {
+        width: 22rem;
+        font-size: 2.8rem;
+    }
+    nav {
+        width: 90%;
+    }
+    #desc h2 {
+        font-size: 2rem;
+    }
+    nav h1 {
+        font-size: 3rem;
+        margin-left: 12%;
+    }
+    nav .link {
+        margin-left: 5%;
+    }
+    nav .link, .bi.bi-water {
+        font-size: 2.6rem;
+    }
+    #ranita {
+        margin-left: 10%;
+    }
+}
 
 @media (max-width: 320px) {
     main {
@@ -223,18 +252,17 @@ footer{
     header h1, .material-symbols-outlined{
         font-size: 2.5rem;
     }
-    nav a {
-        font-size: 3rem;
-        margin-left: 3.5rem;
+    nav .link {
+        margin-left: 3rem;
     }
     #ranita {
         margin-left: 8%;
         width: 15rem;
     }
     nav h1 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
-    nav a, span, .bi.bi-water{
+    nav .link, span, .bi.bi-water{
         font-size: 2rem;
         margin: 1%;
     }
