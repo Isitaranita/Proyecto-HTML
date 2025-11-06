@@ -124,10 +124,10 @@ footer{
 
 @media (max-width: 1024px) {
     main {
-        width: 62rem;
+        width: 60rem;
     }
     header {
-        width: 60rem;
+        width: 50rem;
         font-size: 5rem;
     }
     nav {
@@ -137,47 +137,67 @@ footer{
     nav h1 {
         font-size: 4rem;
     }
+    nav h1 {
+        font-size: 2rem;
+    }
     nav a {
-        margin-left: 23rem;
+        font-size: 3rem;
+        margin-left: 26%;
+    }
+    nav a, span, .bi.bi-water{
+        font-size: 4rem;
+    }
+    #ranita {
+        margin-left: 37%;
     }
 }
 
 @media (max-width: 768px) {
     main {
         width: 45rem;
-        margin-left: 4rem;
+        margin-left: 1%;
     }
     header {
-        width: 36rem;
+        width: 40rem;
     }
-    header h1 {
-        font-size: 4rem;
+    header h1, .material-symbols-outlined {
+        font-size: 5rem;
     }
-    nav {
-        width: 100%;
+    nav h1 {
+        font-size: 2rem;
     }
     nav a {
-        font-size: 3rem;
+        margin-left: 20%;
+    }
+    nav a, span, .bi.bi-water{
+        font-size: 4rem;
+    }
+    #ranita {
+        width: 25rem;
+        margin-left: 28%;
     }
 }
 
 @media (max-width: 512px) {
     main {
-        width: 22rem;
-        margin-left: 8%;
+        width: 21rem;
+        margin-left: 3%;
     }
     header {
         width: 20rem;
     }
-    header h1 {
-        font-size: 4rem;
+    header h1, .material-symbols-outlined {
+        font-size: 2.5rem;
     }
     nav a {
         font-size: 3rem;
-        margin-left: 9rem;
+        margin-left: 1.5%;
+    }
+    nav a, span, .bi.bi-water{
+        font-size: 2.4rem;
     }
     #ranita {
-        margin-left: 10%;
+        margin-left: 7%;
     }
 }
 
@@ -190,8 +210,8 @@ footer{
     header {
         width: 17rem;
     }
-    header h1{
-        font-size: 3.3rem;
+    header h1, .material-symbols-outlined{
+        font-size: 2.5rem;
     }
     nav a {
         font-size: 3rem;
