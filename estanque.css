@@ -216,8 +216,9 @@ footer #frog:target {
     display: block;
     width: 10rem;
     animation-name: ranitawi;
-    animation-duration: 25s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @media (max-width: 1024px) {
