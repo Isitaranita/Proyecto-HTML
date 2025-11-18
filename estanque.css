@@ -134,6 +134,22 @@ nav a:hover .material-symbols-outlined{
     height: 15rem;
 }
 
+menu {
+    overflow-y: scroll;
+    white-space: nowrap;
+    gap: 1rem;
+}
+
+menu span {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+
+menu span img {
+    height: 10rem;
+}
+
 #ranitas > img:target {
     border: 1rem solid var(--blanco);
 }
